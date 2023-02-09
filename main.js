@@ -1,6 +1,13 @@
 let num1=10, num2=5;
 let resultado;
 let miestilo="background: linear-gradient(45deg,rgb(182, 182, 234),rgb(228, 153, 153));font-weight: bold;padding: 5px;";
+let miestilo2="background: linear-gradient(45deg,rgb(224, 184, 223),rgb(201, 209, 252));font-weight: bold;padding: 5px;border: dashed salmon;";
+let mititulo="font-weight:700;padding: 10px;border: dashed salmon;font-size: 36px;";
+
+
+
+
+
 const num3=5.5654;
 
 //Operador de adicion 'SUMA'
@@ -87,3 +94,49 @@ console.log(`%cEl ${num3} sin decimales con (trunc) es:  ${resultado}`,miestilo)
 // Devuelve la cantidad de numeros decimal segun x
 resultado=num3.toFixed(1);
 console.log(`%cEl ${num3} es con un decimal(toFixed) es:  ${resultado}`,miestilo);
+
+
+
+console.log("%c OPERADORES DE COMPARACIÓN",mititulo);
+
+///OPERADORES DE COMPARACIÓN
+
+let a=5;
+let b="5";
+let c=7;
+
+
+//""
+
+//igualdad (a==b)
+resultado = (a == b);
+console.log(`%c ${a} es igual que ${b} --> ${resultado}`,miestilo2)
+
+
+//No Igualdad (a != b)
+resultado = (a != b);
+console.log(`%c ${a} es diferente ${b} --> ${resultado}`,miestilo2)
+
+//Identidad (a===b)
+resultado = (a === b);
+console.log(`%c ${a}  es igual ${b} en dato y tipo de dato --> teniendo en cuenta que  ${a} es tipo de dato ${typeof(a)} y ${b} es tipo de dato ${typeof(b)} --> El resultado es  ${resultado}`,miestilo2)
+
+//No Identidad (a !== b)
+resultado = (a !== b);
+console.log(`%c ${a} diferente a ${b} en dato y tipo de dato --> teniendo en cuenta que  ${a} es tipo de dato ${typeof(a)} y ${b} es tipo de dato ${typeof(b)} --> El resultado es ${resultado}`,miestilo2)
+
+//Mayor que (a > c)
+resultado = (a > c);
+console.log(`%c ${a} es mayor que ${c} --> ${resultado}`,miestilo2)
+
+//Mayor o igual que (a >= b)
+resultado = (a >= b);
+console.log(`%c ${a} es mayor o igual que ${b} --> ${resultado}`,miestilo2)
+
+//Menor que (a < b)
+resultado = (a < b);
+console.log(`%c ${a} es menor que ${b} --> ${resultado}`,miestilo2)
+
+//Menor o igual que (a <= b)
+resultado = (a <= b);
+console.log(`%c ${a} es menor o igual que ${b} --> ${resultado}`,miestilo2)

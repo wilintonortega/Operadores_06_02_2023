@@ -1,5 +1,13 @@
 div{
-background: linear-gradient(45deg,rgb(182, 182, 234),rgb(228, 153, 153));
+background: linear-gradient(45deg,rgb(224, 184, 223),rgb(201, 209, 252));
 font-weight: bold;
 padding: 5px;
+border: dashed salmon;
 }
+
+div{
+    font-weight:700;
+    padding: 10px;
+    border: dashed salmon;
+    font-size: 36px;
+    }
